@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(250, 241, 241);
+}
+
+.main-header {
+  background: white;
+  box-shadow: 0 3px 10px 3px rgba(0, 0, 0, 0.1);
+  padding: 20px 60px;
+  justify-content: space-between;
+  position: relative;
+}
+
+header,
+.main-nav,
+.main-nav2 {
+  display: flex;
+}
+
+.name {
+  font-family: "Ibm Plex", "sans-serif";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.main-nav li {
+  margin-right: 60px;
+  font-weight: 300;
+  font-family: "Poppins", "sans-serif";
+  font-size: 15px;
+}
+
+.main-nav2 li {
+  margin-left: 60px;
+  font-weight: 300;
+  font-family: "Poppins", "sans-serif";
+  font-size: 15px;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(24, 24, 24);
+}
+
+/* =======================
+Form Styles
+==========================*/
+
+.form-box {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px 20px 20px 50px;
+  /* background: yellow; */
+}
+
+.title {
+  margin-bottom: 70px;
+  font-family: "Poppins", "sans-serif";
+  font-weight: 500;
+}
+
+.fieldset {
+  margin-bottom: 30px;
+}
+
+input {
+  border: none;
+  width: 100%;
+  background: none;
+  border-bottom: 1px solid rgb(146, 144, 144);
+  border-radius: 2px;
+  font-family: "Poppins", "sans-serif";
+  font-size: 13px;
+  padding: 2px 2px;
+  outline: none;
+}
+
+input:focus {
+  border-bottom: 1px solid rgb(109, 109, 109);
+}
+
+.btn {
+  text-align: center;
+}
+
+button {
+  background: rgb(8, 8, 8);
+  width: 100%;
+  outline: none;
+  border: none;
+  color: white;
+  padding: 10px;
+  font-family: "Poppins", "sans-serif";
+  font-size: 11px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  position: relative;
+}
+
+.btn i.fas {
+  color: white;
+  margin-left: 10px;
+  position: absolute;
+  bottom: 35%;
+}
+
+.rem {
+  text-align: center;
+  font-family: "Poppins", "sans-serif";
+  font-size: 10.5px;
+  font-weight: 500;
+  margin-top: 20px;
+}
