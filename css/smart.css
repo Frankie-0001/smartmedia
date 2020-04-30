@@ -122,3 +122,11 @@ button {
   font-weight: 500;
   margin-top: 20px;
 }
+
+span {
+  color: rgb(230, 21, 21);
+}
+
+.bold {
+  font-weight: 600;
+}
